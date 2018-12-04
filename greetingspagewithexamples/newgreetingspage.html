@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <style>#canvas {
+				padding: 100px;
+             background-color: blanchedalmond;
+			}<style>
+  p {
+    background: yellow;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+  }
+  p.over {
+    background: #ccc;
+  }
+  span {
+    color: red;
+  }
+        </style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script type="text/javascript">
+    
+            var today_date = new Date();
+            var mymonth = today_date.getMonth() + 1;
+            var mytoday = today_date.getDate();
+            document.write(mymonth + "/" + mytoday);</script>
+  
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    </head>
+<body>
+ 
+<p>Click me!</p>
+<span></span>
+ 
+<script>
+var count = 0;
+$( "body" ).on( "click", "p", function() {
+  $( this ).after( "<p>Another paragraph! " + (++count) + "</p>" );
+});
+</script>
+		<title>Welcome Screen</title>
+		<link rel="stylesheet" href="Inlinestylesheet2.css"/>
+		<script>
+    var d = new Date();
+
+    if (d.getHours() < 12) 
+      {
+      document.write("<b>Good morning!</b>");
+      }
+    else
+    if (d.getHours() >= 12&& d.getHours()<=17) 
+      {
+      document.write("<b>Good afternoon!</b>");
+      }
+    if (time == 12) 
+      {
+      document.write("<b>Lunch Time!</b>");
+      }
+    else
+    if (d.getHours()>17 && d.getHours() <=24)
+        {
+            document.write("Good Evening!");
+        }
+    else 
+        {
+            document.write("Please set this clock!");
+        }
+    </script> 
+		<script type="text/javascript" src="../jquery-3.0.0.js"></script>
+    <script type="text/javascript">
+	$("document").ready(function() 
+        });
+    </script>
+        </body>
+	<h1 style= "color: blue;">Landing Page</h1>
+		<canvas id="canvas" width="1000" height="600">
+		<p>Your browser does not support canvas.</p>
+		<script> alert("Good Day!")</script>
+   <script>
+            var today_date = new Date();
+            var mymonth = today_date.getMonth() + 1;
+            var mytoday = today_date.getDate();
+            document.write(mymonth + "/" + mytoday);</script>
+        
+		<script type="text/javascript">
+    var canvas = document.getElementById('canvas');
+    var ctx = canvas.getContext('2d');
+    ctx.font = '36px Arial';
+    ctx.textAlign = 'right-side';
+    ctx. textBaseline = 'middle';
+    ctx.fillStyle = 'green';  
+    ctx.fillText('Good day, and Welcome to my landing Page!', 50, 50);
+	</script>
+			</canvas>
+			<script>
+$("h1:not(.selectors)").css("border", "3px solid green ");
+{
+ $("h2:not(.selectors)").css("border", "3px solid red");
+		   </script>
+			<body>
+			
+<div id="myID.entry[0]">First Line</div>
+<div id="myID.entry[1]">Second Line</div>
+<div id="myID.entry[2]">Third Line</div>
+ 
+<script>
+$( "#myID\\.entry\\[1\\]" ).css( "border", "3px solid red" );
+</script>
+ <script>
+$( "p span" ).last().addClass( "highlight" );
+</script>
+    <h3 id="third">jQuery Selectors and Filters</h3>
+    <div id="content">
+        <p>Selectors and Filters extract information from Web pages.</p>
+        
+        <h4 class="selectors">Selectors</h4>
+        <p>Selectors select parts of the Web page using a common CSS-style syntax.</p>
+        <p>For example, <code>$("p")</code> will select all of the paragraph tags in a document and return them as a list that
+            can be further operated upon.</p>
+            
+        <h2 class="filters">Filters</h2>
+        <p>Filters are used to further refine the results returned from selectors.</p>
+        <p>For example, <code>$("p:first")</code> will select the first paragraph in the returned set from <code>$("p")</code>.</p>
+    </div>
+	</body>
+</html>

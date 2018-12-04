@@ -1,0 +1,23 @@
+<style type="text/css">
+	body {
+          color:green;
+	 }
+  
+            #canvas {
+				padding: 100px;
+			}
+font-family{
+	   font: Helvetica;
+       font-size:30px;
+        }
+    h1 {
+        color: lawngreen;
+    }
+	
+    h2 {
+        color: green;
+       }
+    h3 {
+	    color: green;
+    }
+</style>
