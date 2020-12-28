@@ -1,4 +1,4 @@
-//scope example, that is immediately invoked
+//scope example, func that is immediately invoked
 
 var firstName = 'Jane';
 
