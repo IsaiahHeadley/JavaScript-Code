@@ -1,0 +1,14 @@
+/*
+How many seconds are in 30 days? 
+use the info below to figure it out:
+
+1 day = 24 hours
+1 hour = 60 minutes
+1 minute = 60 seconds 
+*/
+
+//code should output 2592000
+var hoursInaMonth = (30*24);
+var minutesInaMonth =(hoursInaMonth * 60);
+var secondsInaMonth = (minutesInaMonth * 60);
+console.log (secondsInaMonth);
