@@ -8,7 +8,7 @@ use the info below to figure it out:
 */
 
 //code should output 2592000
-var hoursInaMonth = (30*24);
-var minutesInaMonth =(hoursInaMonth * 60);
-var secondsInaMonth = (minutesInaMonth * 60);
+const hoursInaMonth = (30*24);
+const minutesInaMonth =(hoursInaMonth * 60);
+const secondsInaMonth = (minutesInaMonth * 60);
 console.log (secondsInaMonth);
