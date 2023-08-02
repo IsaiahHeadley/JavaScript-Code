@@ -1,0 +1,22 @@
+function vowelsAndConsonants() {
+  const input = prompt("Enter a word: ");
+  const inputStringToArray = input.split('');
+  let vowels = ['a', 'e', 'i', 'o', 'u'];
+  let consonants = [];
+  let vowelsInWord = [];
+  
+  for (let i = 0; i < inputStringToArray.length; i++) {
+    currentLetter = inputStringToArray[i];
+    if (vowels.includes(currentLetter.toLowerCase())) {
+      vowelsInWord.push(currentLetter);
+       
+    } else {
+      consonants.push(currentLetter);
+    }
+  }
+  console.log("These are the vowels in your word : " + vowelsInWord.join(''));
+  console.log("These are the consonants in your word: " + consonants.join(''));
+}
+
+vowelsAndConsonants();
+
