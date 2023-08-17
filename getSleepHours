@@ -1,0 +1,23 @@
+
+function getSleepHours()
+  {
+    const day = prompt("what day of the week is it");
+switch (day) {
+  case 'Monday':
+    console.log('Sleep for 4 hours tonight.');
+    break;
+    case 'Tuesday':
+    console.log('Sleep for 5 hours tonight.');
+    break;
+    case 'Wednesday':
+    console.log('Sleep for 3 hours tonight.');
+    break;
+  case 'Thursday':
+  case 'Friday':
+    console.log('Thursdays and Fridays its important to sleep for 6 hours.');
+    break;
+  default:
+    console.log(`On ${day} you should sleep enough to catch up on some zzz's before the week begins =).`);
+}
+  }
+getSleepHours()
